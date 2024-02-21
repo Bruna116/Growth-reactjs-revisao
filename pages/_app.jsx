@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
 function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyled />
+      <GlobalStyle />
       <Component {...pageProps} />
     </ThemeProvider>
   )
