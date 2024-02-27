@@ -5,7 +5,7 @@ export default function CustomHookPage() {
 
   return (
     <div>
-      <h4>Exemplo Hook customizado:</h4>
+      <h4>Exemplo hook customizado:</h4>
       {loading && <p>Carregando...</p>}
       {data?.map(({id, name}) => (
         <div key={`item-${id}`}>{name}</div>
